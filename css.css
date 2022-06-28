@@ -1,0 +1,176 @@
+body {
+    padding: 0%;
+    margin: 0;
+}
+
+.language {
+    font-size: 25px;
+    color: white;
+}
+
+.web-top-img {
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+    box-shadow: 0 0 25px gray;
+}
+
+div {
+    margin: 0;
+}
+
+.styleeeeen {
+    background-color: cornflowerblue;
+    margin: 0;
+    line-height: -3;
+    color: aliceblue;
+
+    box-shadow: 0 0 25px gray;
+}
+
+.fixed {
+    position: fixed;
+    background-color: cornflowerblue;
+    inline-size: 100%;
+    margin: 0;
+    line-height: -3;
+    color: aliceblue;
+
+    box-shadow: 0 0 25px gray;
+}
+
+h1 {
+    color: aliceblue;
+    width: 800px auto;
+    font-size: 800px auto;
+}
+
+.web-top-img {
+    z-index: 100;
+    inline-size: 100%;
+}
+
+.spell {
+    font-size: 0px;
+    padding-left: 2%;
+}
+
+.spell h3 {
+    font-size: 3pc;
+    text-align: center;
+}
+
+.spell h5 {
+    padding-left: 10%;
+}
+
+.ps {
+    margin: 0%;
+    padding-left: 5px
+}
+
+.spell {
+    font-size: 20px;
+}
+
+.center-p {
+    padding-top: 15px auto;
+    text-align: center;
+}
+
+.left p {
+    text-align: left;
+}
+
+.contests-urls {
+    border: 0;
+    margin-left: 25%;
+    margin-right: 0%;
+}
+
+.end-bar {
+    color: #fff;
+    background-color: black;
+}
+
+/*その他と主な共通部分は省略*/
+
+a.btn--green {
+    color: #fff;
+    background-color: #094;
+  }
+  
+  a.btn--green:hover {
+    color: #fff;
+    background: #00a349;
+  }
+  
+  a.btn--green.btn--cubic {
+    border-bottom: 5px solid #00662d;
+  }
+  
+  a.btn--green.btn--cubic:hover {
+    margin-top: 3px;
+    border-bottom: 2px solid #00662d;
+  }
+  
+  a.btn-c {
+    font-size: 2rem;
+    position: relative;
+    padding: 1.5rem 3rem 1.5rem 2rem;
+  }
+  
+  a.btn-c i.fa {
+    margin-right: 1rem;
+  }
+
+
+
+
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+section{
+  padding:30px;
+}
+
+section:nth-child(2n){
+  background:#f3f3f3; 
+}
+
+#main-vidual img{
+  width: 100%;
+}
+
+#page-link{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#page-link li{
+  list-style: none;
+}
+
+#page-link li a{
+  color: #333;
+  padding:0 20px;
+  text-decoration: none;
+}
+
+#page-link li a::before{
+  content:'▼';
+  font-size:0.8rem;
+  padding:0 10px 0 0;
+  color: #ccc;
+}
+
+#footer{
+  position: relative;
+  z-index: 2;
+}
